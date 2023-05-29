@@ -1,10 +1,13 @@
-git addimport './App.css';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      Homepage
-    </div>
+    <> className="App"
+      <Headers/>
+      <Nav/>
+      <Main/>
+      <Footer/>
+    </>
   );
 }
 
